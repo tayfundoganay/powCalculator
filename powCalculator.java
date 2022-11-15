@@ -4,7 +4,7 @@ public class powCalculator {
     static int pow(int base, int power) {
         if (power != 0) {
 
-            // recursive call to power()
+            // recursive için çağırıyoruz.
             return (base * pow(base, power - 1));
         } else {
             return 1;
